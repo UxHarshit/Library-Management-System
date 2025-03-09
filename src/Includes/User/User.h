@@ -28,7 +28,7 @@ public:
 	void loadUsers();
 	void save();
 	bool registerUser();
-	bool getIsLoggedIn() {
+	bool getIsLoggedIn() const {
 		return this->loggedIn;
 	}
 	bool login();

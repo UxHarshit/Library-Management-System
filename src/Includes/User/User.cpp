@@ -42,7 +42,6 @@ bool User::registerUser()
 	cin >> details.role;
 	if (details.role != "admin" && details.role != "user" && details.role != "librarian") {
 		console.WriteLine(L"Invalid role");
-		cin.get();
 		return false;
 	}
 	console.Write(L"Enter contact: ");
@@ -53,7 +52,6 @@ bool User::registerUser()
 
 	if (users.find(details.username) != users.end()) {
 		console.WriteLine(L"User already exists");
-		cin.get();
 		return false;
 	}
 	users[details.username] = details;

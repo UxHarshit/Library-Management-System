@@ -18,6 +18,7 @@
 class Console
 {
 public:
+	void printHeader();
 	void CreateConsole(const wchar_t* title, int width = 800, int height = 600);
 	void SetColor(WORD color);
 	void SetCursorPosition(int x, int y);

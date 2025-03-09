@@ -1,6 +1,17 @@
 #include <Console/Console.h>
 
 
+void Console::printHeader()
+{
+	console.SetColor(YELLOW);
+	console.WriteLine(L" _     __  __ ____  ");
+	console.WriteLine(L"| |   |  \\/  / ___| ");
+	console.WriteLine(L"| |   | |\\/| \\___ \\ ");
+	console.WriteLine(L"| |___| |  | |___) |");
+	console.WriteLine(L"|_____|_|  |_|____/ ");
+	console.WriteLine(L"\n\n");
+}
+
 void Console::CreateConsole(const wchar_t* title, int width, int height)
 {
 	if (AllocConsole())

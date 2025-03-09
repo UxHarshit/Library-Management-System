@@ -140,12 +140,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\Includes\Console\Console.cpp" />
+    <ClCompile Include="src\Includes\Library\Library.cpp" />
+    <ClCompile Include="src\Includes\Menus\Admin.cpp" />
+    <ClCompile Include="src\Includes\Menus\Auth.cpp" />
     <ClCompile Include="src\Includes\User\User.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Includes\Console\Console.h" />
     <ClInclude Include="src\Includes\Globals.h" />
+    <ClInclude Include="src\Includes\Library\Book.h" />
+    <ClInclude Include="src\Includes\Library\Library.h" />
+    <ClInclude Include="src\Includes\Menus\Admin.h" />
+    <ClInclude Include="src\Includes\Menus\Auth.h" />
     <ClInclude Include="src\Includes\User\User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

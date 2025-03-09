@@ -7,8 +7,10 @@
 #include <fstream>
 
 #include <Console/Console.h>
-
 #include <User/User.h>
+#include <Menus/Auth.h>
+#include <Menus/Admin.h>
+#include <Library/Library.h>
 
 
 using namespace std;
